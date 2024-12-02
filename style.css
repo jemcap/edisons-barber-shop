@@ -40,11 +40,11 @@ a {
 
 .jumbotron {
   width: 100vw;
-  height: 60vh;
+  height: 75vh;
   display: flex;
-  align-items: center; /* Center items vertically */
-  justify-content: space-between; /* Space elements evenly across the row */
-  padding-left: 5%; /* Padding only on the left for the intro */
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 5%;
   background-color: #fffff2;
 }
 
@@ -66,9 +66,14 @@ a {
 .jumbotron-content__intro {
   flex: 1;
   display: flex;
-  flex-direction: column; /* Stack elements vertically */
+  flex-direction: column;
   justify-content: center;
-  gap: 1rem; /* Adds spacing between heading and paragraph */
+  gap: 1rem;
+  padding-right: 100px;
+}
+
+.jumbotron-content__intro h1 {
+  font-size: 2.5rem;
 }
 
 .jumbotron-content__image {
