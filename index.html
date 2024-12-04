@@ -7,50 +7,79 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Edison's Barber Shop</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar">
-            <div>
-                <a href=""><img src="./assets/edisons_barber_shop_logo.png" alt="" width="150"></a>
-            </div>
-            <div class="nav-link__container">
-                <ul class="nav-links">
-                    <li><a href="">About</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
+        <nav class="navbar-container">
+            <div class="navbar-container__content">
+                <div>
+                    <a href=""><img src="./assets/edisons_barber_shop_logo.png" alt="" width="150"></a>
+                </div>
+                <div class="nav-link__container">
+                    <ul class="nav-links">
+                        <li><a href="">About</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div class="navbar-container__content">
         </nav>
     </header>
 
     <section class="jumbotron">
         <div class="jumbotron-content">
             <div class="jumbotron-content__intro">
-                <h1>Welcome to Edison's Barber Shop</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur et quas rerum perspiciatis minus
-                    sint nostrum non amet, earum animi?</p>
+                <h1>Take a seat at Edison's Barber Shop</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ad qui id adipisci iusto debitis
+                    voluptatem? Repellendus dolorem earum, molestiae itaque perferendis repellat, possimus ex deleniti
+                    neque nemo provident pariatur qui debitis eius eveniet blanditiis veniam quasi odio assumenda
+                    doloribus! Quia explicabo quidem atque rerum modi enim vitae optio eos!</p>
             </div>
+
             <div class="jumbotron-content__image">
                 <img src="./assets/edisons_barber_shop.jpg" alt="">
             </div>
         </div>
     </section>
-    <section class="book-jumbotron jumbotron">
-        <div class="jumbotron-content">
-            <div class="jumbotron-content__intro">
-                <h1>Welcome to Edison's Barber Shop</h1>
+
+    <!-- <section class="booking-section">
+        <div class="booking-section__content">
+            <div class="booking-section__left">
+
+                <small>Take a seat and</small>
+                <h1>Look your best with Edison</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur et quas rerum perspiciatis minus
                     sint nostrum non amet, earum animi?</p>
-            </div>
 
+            </div>
+            <div>
+                <img src="./assets/edisons_clients.png" alt="" />
+            </div>
+            <div>
+                <div>
+                    <small>(BY APPOINTMENTS ONLY)</small>
+                    <h1>Business hours</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur et quas rerum perspiciatis
+                        minus
+                        sint nostrum non amet, earum animi?</p>
+                </div>
+            </div>
         </div>
-    </section>
+
+    </section> -->
 
 </body>
 
