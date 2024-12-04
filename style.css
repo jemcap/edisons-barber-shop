@@ -82,11 +82,12 @@ body {
   text-align: left;
   color: white;
   margin: 0 auto;
+  max-width: 2000px;
 }
 
 .jumbotron-content__intro {
   flex: 1;
-  padding: 5rem;
+  padding-right: 5rem;
 }
 .jumbotron-content__intro h1 {
   font-size: 4rem;
@@ -113,6 +114,27 @@ body {
   object-fit: cover;
   filter: grayscale(100%);
   display: block;
+}
+
+.booking-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: antiquewhite;
+}
+
+.booking-section__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 2000px;
+}
+
+.booking-section__image img {
+  position: relative;
+  top: -100px;
+  width: 500px;
 }
 
 /* Responsive Mobile Layout */
