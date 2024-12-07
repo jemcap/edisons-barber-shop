@@ -26,8 +26,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
   width: 100%;
-  max-width: 2000px;
+  max-width: 1250px;
   padding: 0 1rem;
 }
 
@@ -78,11 +79,11 @@ body {
   display: flex;
   height: 100%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   text-align: left;
   color: white;
   margin: 0 auto;
-  max-width: 2000px;
+  max-width: 1250px;
 }
 
 .jumbotron-content__intro {
@@ -120,7 +121,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 60vh;
   background-color: antiquewhite;
 }
 
@@ -128,13 +129,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 2000px;
+  width: 100%;
+  max-width: 1250px;
 }
 
 .booking-section__image img {
   position: relative;
-  top: -100px;
-  width: 500px;
+  top: -50px;
+  width: 350px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 
 /* Responsive Mobile Layout */
