@@ -26,9 +26,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
+  margin: 0 clamp(2rem, 5vw, 5rem);
   width: 100%;
-  max-width: 1250px;
+  max-width: 1550px;
 }
 
 .nav-link__container {
@@ -152,7 +152,7 @@ body {
 }
 
 .booking-section__left p {
-  font-size: 1.5rem;
+  font-size: clamp(0.5rem, 5vw, 1rem);
 }
 
 .booking-section__right {
@@ -195,7 +195,7 @@ body {
 }
 
 .business-hours li {
-  font-size: 1.5rem;
+  font-size: clamp(0.5rem, 5vw, 1rem);
 }
 
 /* Services Section */
@@ -209,6 +209,9 @@ body {
   }
   .icon {
     display: block;
+  }
+  .navbar-container__content {
+    margin: 0 2rem;
   }
   .jumbotron-content {
     width: 100%;
@@ -245,15 +248,32 @@ body {
     object-fit: cover; /* Maintain aspect ratio and cover the entire container */
   }
 
+  .booking-section {
+    height: 100%;
+    padding: 2rem 0;
+  }
+
   .booking-section__container {
     flex-direction: column;
+    margin: 0 2rem;
+  }
+
+  .booking-section__left,
+  .booking-section__right {
+    text-align: center;
+  }
+  .booking-section__left h1,
+  .booking-section__right h1 {
+    font-size: 2rem;
   }
 
   .booking-section__right {
-    text-align: left;
+    text-align: center;
   }
 
-  .business-hours {
-    flex-direction: column;
+  .booking-section__image img {
+    width: 100%;
+    max-width: 275px;
+    height: auto;
   }
 }
